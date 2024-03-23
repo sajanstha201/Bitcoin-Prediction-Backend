@@ -15,12 +15,12 @@ class Query(models.Model):
 
     class Meta:
         managed = False
-        db_table = 'query'
+        db_table = 'Query'
         app_label='api'
 class Faq(models.Model):
     question = models.TextField(blank=True, null=True)
     answer = models.TextField(blank=True, null=True)
     class Meta:
         managed = False
-        db_table = 'FAQ'
+        db_table = 'Faq'
         app_label='api'
