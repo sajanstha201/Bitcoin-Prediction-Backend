@@ -3,7 +3,6 @@ from .predict_next_10_day import predict_next
 from .model_fitting import fit_my_model
 from .data_fetching import fetch_save_prev_and_new_except_prev
 from .utils import save_file
-import numpy as np
 import pandas as pd  
 import os
 import datetime

@@ -1,7 +1,6 @@
 import pandas as pd
 import plotly.graph_objects as go
 import os
-import plotly.io as pio
 import matplotlib
 matplotlib.use('agg')
 import matplotlib.pyplot as plt  # Add this line for creating the table

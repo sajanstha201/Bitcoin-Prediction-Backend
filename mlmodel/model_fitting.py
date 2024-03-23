@@ -1,4 +1,4 @@
-import pandas as pd
+
 import numpy as np
 
 def fit_my_model(model,input_transformer,output_transformer,data):
