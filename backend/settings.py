@@ -86,10 +86,10 @@ WSGI_APPLICATION = "backend.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'bitcoin_price_prediction',
-        'USER': 'root',
-        'PASSWORD': '#sajanstha88361922751$',
-        'HOST': 'localhost',   # Or the IP address of your MySQL server
+        'NAME': 't4vytcuaxuiqxjhk',
+        'USER': 'dsquydk1jo34er5i',
+        'PASSWORD': 'b5qo5a8645whq8l3',
+        'HOST': 'dyud5fa2qycz1o3v.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',   # Or the IP address of your MySQL server
         'PORT': '3306',        # MySQL default port
     }
 }
