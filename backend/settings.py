@@ -82,7 +82,6 @@ WSGI_APPLICATION = "backend.wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -93,6 +92,20 @@ DATABASES = {
         'PORT': '3306',        # MySQL default port
     }
 }
+'''
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'bitcoin_price_prediction',
+        'USER': 'root',
+        'PASSWORD': '#sajanstha88361922751$',
+        'HOST': 'localhost',   # Or the IP address of your MySQL server
+        'PORT': '3306',        # MySQL default port
+    }
+}
+'''
+
+
 
 
 # Password validation
