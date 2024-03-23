@@ -8,13 +8,13 @@
 from django.db import models
 
 
-class Faq(models.Model):
+class faq(models.Model):
     question = models.TextField(blank=True, null=True)
     answer = models.TextField(blank=True, null=True)
 
     class Meta:
         managed = False
-        db_table = 'FAQ'
+        db_table = 'faq'
 
 
 class AuthGroup(models.Model):
@@ -150,7 +150,7 @@ class DjangoSession(models.Model):
         db_table = 'django_session'
 
 
-class Query(models.Model):
+class query(models.Model):
     name = models.CharField(max_length=50, blank=True, null=True)
     email = models.CharField(max_length=50, blank=True, null=True)
     message = models.TextField(blank=True, null=True)
