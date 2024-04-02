@@ -8,7 +8,7 @@ def load_file(path):
             loaded_file=pickle.load(file)
             return loaded_file
     except Exception as e:
-        print("THIS IS THE ERROR MESSAGE WHILE LOADING THE FILE\n")
+        print("THIS IS THE ERROR MESSAGE WHILE LOADING THE FILE\n",path)
         print(e)
         return False  
     
